@@ -3,10 +3,17 @@ body{
     color: #fff;
 }
 
-header{
+.menu{
     background-image: url('../assets/img/Background_header.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+
 }
+
+.logo{
+    width: 200px;
+    margin-left: 150px;
+}
+
 
