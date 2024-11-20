@@ -8,10 +8,15 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-
+    display: flex;
+    flex-direction: column;
+    
 }
 
-
+.logo{
+    width: 200px;
+    margin-left: 150px;
+}
 
 /*ÁREA DE SERVIÇOS*/
 
