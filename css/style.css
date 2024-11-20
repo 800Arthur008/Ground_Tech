@@ -11,9 +11,30 @@ body{
 
 }
 
-.logo{
-    width: 200px;
-    margin-left: 150px;
+
+
+/*ÁREA DE SERVIÇOS*/
+
+.services{
+    display: flex;
 }
 
+.services__description{
+    margin-left: 20px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
+.services__icon h3{
+    margin-left: 235px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.services img{
+    width: 50vh;
+    border-radius: 10px;
+    margin-left: 150px;
+}
