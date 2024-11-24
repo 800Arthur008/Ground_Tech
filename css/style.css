@@ -3,20 +3,36 @@ body{
     color: #fff;
 }
 
-.menu{
-    background-image: url('../assets/img/Background_header.jpg');
+/*Header*/
+
+header.menu{
+    background-image: url('../assets/img/Background_header_teste.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 50vh;  
+    width: 95vw;
+    margin: 0px auto;
+    border: 11px outset #060606;
+  
+}
+
+.header-elements {
+    height: 100%;
+    backdrop-filter: blur(5px);
     display: flex;
     flex-direction: column;
-    
+    padding-top: 10px;    
 }
 
 .logo{
     width: 200px;
     margin-left: 150px;
+    border-radius: 100px;
 }
+
+
+
+/* Fim do Header*/
 
 /*ÁREA DE SERVIÇOS*/
 
