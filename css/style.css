@@ -182,24 +182,6 @@ img {
     border-radius: 8px;
 }
 
-/* Seção de Frase */
-.phrase {
-    width: 98%;
-    background-color: #007bff;
-    color: white;
-    border-radius: 8px;
-}
-
-.phrase h3 {
-    color: #fff;
-    font-size: 24px;
-    font-weight: 700;
-}
-
-.phrase p {
-    font-size: 18px;
-}
-
 /*Inicio do Footer*/
 
 .contact {
