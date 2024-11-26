@@ -157,10 +157,6 @@ body {
 }
 
 .sidebar-brand {
-    background-image: url(/assets/img/Background.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
     padding: 20px;
     text-align: center;
 }
