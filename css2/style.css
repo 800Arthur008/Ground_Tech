@@ -10,11 +10,40 @@ body {
 .dashboard_img{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin-top: 10px;
 }
 
 .dashboard_img img{
     max-width: 100%;
+}
+
+.status1{
+    background-color: #5ecf2d;
+    width: 20%;
+    color: rgba(255, 255, 255, 0.641);
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.status1 p{
+    color: white;
+    margin-top: 10px;
+}
+
+.view_more{
+    border-top: solid white 0.5px ;
+}
+
+.statistics_img{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.statistics_img img{
+    width: 100%;
 }
 
 .sidebar {
