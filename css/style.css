@@ -65,6 +65,7 @@ ul.navbar li a:hover{
 .icon-menu{
     width: 40px;
     display: none;
+    flex-direction: column;
 }
 
 ul li a.inicio{
