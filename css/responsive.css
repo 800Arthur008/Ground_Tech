@@ -33,10 +33,35 @@
 
 /* sm */
 @media (max-width: 640px) {
+    header h1{
+        font-size: 50px;
+        font-weight: 700;
+    }
     
+    header h2{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    
+    header p{
+        font-size: 15px;
+    }
 }
 
 /* xs */
 @media (max-width: 475px) {
+
+    header h1{
+        font-size: 40px;
+        font-weight: 700;
+    }
     
+    header h2{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    
+    header p{
+        font-size: 15px;
+    }
 }
