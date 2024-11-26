@@ -11,11 +11,13 @@ body {
     background-color: white;
     border-radius: 5px;
     padding: 10px 10px;
+    padding-bottom: 20px;
 }
 
 .dashboard_background h3 {
     color: rgb(50, 50, 50);
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 700;
 }
 .dashboard_img{
     display: flex;
@@ -30,7 +32,7 @@ body {
 
 .dashboard_description{
     display: flex;
-    gap: 100px;
+    justify-content: space-around;
 }
 
 /*-----------------------------------------------------------*/
@@ -44,6 +46,7 @@ body {
     background-image: url(../assets/img/monitoring_icon.png);
     background-repeat: no-repeat;
     background-position: 35vh;
+    box-shadow: 0px 0px 10px 0.5px rgb(150, 150, 150);
 }
 
 .description1 h3{
@@ -66,6 +69,7 @@ body {
     background-image: url(../assets/img/alert_icon.png);
     background-repeat: no-repeat;
     background-position: 35vh;
+    box-shadow: 0px 0px 10px 0.5px rgb(150, 150, 150);
 }
 
 .description2 h3{
@@ -88,6 +92,7 @@ body {
     background-image: url(../assets/img/location_icon.png);
     background-repeat: no-repeat;
     background-position: 35vh;
+    box-shadow: 0px 0px 10px 0.5px rgb(150, 150, 150);
 }
 
 .description3 h3{
@@ -220,7 +225,7 @@ header h2 {
     color: rgb(50, 50, 50);
     margin: 0;
     font-size: 40px;
-    font-weight: 800px;
+    font-weight: 700;
 }
 
 .search-wrapper {
