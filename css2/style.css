@@ -34,6 +34,11 @@ body {
 
 .view_more{
     border-top: solid white 0.5px ;
+    background-color: #5ecf2d;
+    width: 21.6%;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .general_statistics h3{
@@ -43,11 +48,10 @@ body {
 .statistics_img{
     display: flex;
     justify-content: space-around;
-
 }
 
 .statistics_img img{
-    width: 100%;
+    max-width: 100%;
 }
 
 .sidebar {
@@ -92,10 +96,14 @@ body {
     color: white;
     text-decoration: none;
     display: block;
+    padding: 10px;
+    border-radius: 10px;
+    
 }
 
 .sidebar-menu li a:hover {
-    background-color: #0056b3;
+    background-color: rgba(255, 255, 255, 0.255);
+    transition: 0.3s;
 }
 
 .main-content {
@@ -117,6 +125,7 @@ header {
 
 header h2 {
     margin: 0;
+    font-size: 40px;
 }
 
 .search-wrapper {
