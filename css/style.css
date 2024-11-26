@@ -4,6 +4,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     color: #000000;
+    scroll-behavior: smooth;
 }
 .content{
     width: 90vw;
@@ -61,8 +62,9 @@ ul.navbar li a:hover{
     align-items: center;
 }
 
-.open{
-
+.icon-menu{
+    width: 40px;
+    display: none;
 }
 
 ul li a.inicio{
@@ -101,6 +103,10 @@ header p{
 /* Estilo Geral */
 
 /* Títulos principais */
+.about__project p{
+    text-align: justify;
+    padding: 0 40px;
+}
 
 .content_2{
     background-color: #fff; 
@@ -175,6 +181,11 @@ img {
 }
 
 /* Seção de Clientes */
+.our__clients p{
+    text-align: justify;
+    padding: 0 40px;
+}
+
 .client__img {
     display: flex;
     justify-content: space-around;
