@@ -4,7 +4,9 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    background-color: #f4f4f4;
+    background-image: url(/assets/img/cidade_montanhosa.jpeg);
+    background-size: cover;
+    backdrop-filter: blur(5px);
 }
 
 .dashboard_title{
@@ -127,15 +129,6 @@ body {
     border-radius: 5px;
 }
 
-.view_more{
-    border-top: solid white 0.5px ;
-    background-color: #5ecf2d;
-    width: 21.6%;
-    font-size: 20px;
-    padding: 10px;
-    border-radius: 5px;
-}
-
 .general_statistics .dashboard_title{
     margin: 0px 10px;
 }
@@ -167,12 +160,11 @@ body {
 
 .sidebar {
     width: 250px;
-    background-image: url(/assets/img/Background.jpeg); /**/
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: rgb(2,0,39);
+    background: linear-gradient(90deg, rgba(2, 0, 39, 0.87) 0%, rgba(58, 47, 180, 0.81) 100%);
     background-attachment: fixed;
     color: white;
-    height: 100vh;
+    height: 100%;
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -218,16 +210,8 @@ body {
 .main-content {
     margin-left: 250px;
     padding: 20px;
-    width: calc(100% - 250px);
     height: 100vh;
-    overflow-y: auto;
-    background-image: url(/assets/img/cidade_montanhosa.jpeg);
-    background-size: cover;
-}
-
-.main-content-blur {
-    backdrop-filter: blur(5px);
-    width: 100%;
+    overflow-y: scroll;
 }
 
 header {
