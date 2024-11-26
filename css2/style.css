@@ -1,0 +1,95 @@
+/* Estilos gerais */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #f4f4f4;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #007bff;
+    color: white;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-brand {
+    padding: 20px;
+    background-color: #0056b3;
+    text-align: center;
+}
+
+.sidebar-brand h2 {
+    margin: 0;
+}
+
+.sidebar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex: 1;
+}
+
+.sidebar-menu li {
+    padding: 15px 20px;
+}
+
+.sidebar-menu li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar-menu li a:hover {
+    background-color: #0056b3;
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+    width: calc(100% - 250px);
+    background-color: white;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+header h2 {
+    margin: 0;
+}
+
+.search-wrapper {
+    position: relative;
+}
+
+.search-wrapper input {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+main section {
+    padding: 20px 0;
+}
+
+main h3 {
+    margin: 0 0 10px;
+    font-size: 24px;
+    color: #007bff;
+}
+
+main p {
+    margin: 0;
+    color: #555;
+}
