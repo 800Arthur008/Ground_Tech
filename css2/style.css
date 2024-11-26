@@ -151,6 +151,12 @@ body {
     margin-left: 10px;
 }
 
+.main_statistics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .main_statistics1{
     margin-top: 25px;
     width: 650px;
@@ -163,6 +169,19 @@ body {
 
 .main_statistics1 img{
     max-width: 100%;
+}
+
+.main_statistics2{
+    margin-top: 25px;
+}
+
+.main_statistics2 h4{
+    font-size: 20px;
+    text-align: center;
+}
+
+.main_statistics2 img{
+    max-width: 60vh;
 }
 
 .sidebar {
@@ -245,6 +264,7 @@ header h2 {
     margin: 0;
     font-size: 40px;
     font-weight: 700;
+    margin-left: 100px;
 }
 
 .search-wrapper {
