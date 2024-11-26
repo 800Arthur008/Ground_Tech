@@ -54,6 +54,16 @@ ul.navbar li a:hover{
     font-size: 20px;
     transition: 0.5s;
 }
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    align-items: center;
+}
+
+.open{
+
+}
 
 ul li a.inicio{
     color: #25139e;
