@@ -36,10 +36,14 @@ body {
     border-top: solid white 0.5px ;
 }
 
+.general_statistics h3{
+    margin-bottom: 20px;
+}
+
 .statistics_img{
     display: flex;
     justify-content: space-around;
-    
+
 }
 
 .statistics_img img{
