@@ -33,6 +33,8 @@ body {
     gap: 100px;
 }
 
+/*-----------------------------------------------------------*/
+
 .description1{
     margin-top: 10px;
     max-width: 25%;
@@ -52,6 +54,52 @@ body {
     color: rgba(255, 255, 255, 0.821);
     max-width: 70%;
 }
+
+/*-----------------------------------------------------------*/
+
+.description2{
+    margin-top: 10px;
+    max-width: 25%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #c54b23;
+    background-image: url(../assets/img/alert_icon.png);
+    background-repeat: no-repeat;
+    background-position: 35vh;
+}
+
+.description2 h3{
+    color: rgb(255, 255, 255);
+}
+
+.description2 p{
+    color: rgba(255, 255, 255, 0.821);
+    max-width: 70%;
+}
+
+/*-----------------------------------------------------------*/
+
+.description3{
+    margin-top: 10px;
+    max-width: 25%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #420cc9;
+    background-image: url(../assets/img/location_icon.png);
+    background-repeat: no-repeat;
+    background-position: 35vh;
+}
+
+.description3 h3{
+    color: rgb(255, 255, 255);
+}
+
+.description3 p{
+    color: rgba(255, 255, 255, 0.821);
+    max-width: 70%;
+}
+
+/*-----------------------------------------------------------*/
 
 .more{
     margin-top: 10px;
