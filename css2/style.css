@@ -52,7 +52,10 @@ body {
 
 .sidebar {
     width: 250px;
-    background-color: #007bff;
+    background-image: url(/assets/img/Background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     color: white;
     height: 100vh;
     position: fixed;
@@ -61,12 +64,16 @@ body {
 }
 
 .sidebar-brand {
+    background-image: url(/assets/img/Background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     padding: 20px;
-    background-color: #0056b3;
     text-align: center;
 }
 
 .sidebar-brand h2 {
+    font-family: 'Courier New', Courier, monospace sans-serif;
     margin: 0;
 }
 
