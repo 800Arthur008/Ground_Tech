@@ -7,6 +7,24 @@ body {
     background-color: #f4f4f4;
 }
 
+.dashboard_background {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.dashboard_status {
+    padding: 10px;
+}
+
+.dashboard_status h3 {
+    color: rgb(50, 50, 50);
+}
+
+.dashboard_background h3 {
+    color: rgb(50, 50, 50);
+    font-size: 20px;
+}
 .dashboard_img{
     display: flex;
     justify-content: space-around;
@@ -16,6 +34,14 @@ body {
 
 .dashboard_img img{
     max-width: 100%;
+}
+
+.sections {
+    background-color: white;
+    border-radius: 5px;
+}
+.general_statistics {
+
 }
 
 .status1{
@@ -70,6 +96,8 @@ body {
 
 .sidebar-brand h2 {
     font-family: 'Courier New', Courier, monospace sans-serif;
+    font-size: 25px;
+    font-weight: bold;
     margin: 0;
 }
 
@@ -98,20 +126,30 @@ body {
     margin-left: 250px;
     padding: 20px;
     width: calc(100% - 250px);
-    background-color: white;
     height: 100vh;
     overflow-y: auto;
+    background-image: url(/assets/img/cidade_montanhosa.jpeg);
+    background-size: cover;
+}
+
+.main-content-blur {
+    backdrop-filter: blur(5px);
+    width: 100%;
 }
 
 header {
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
-    border-bottom: 1px solid #ccc;
+    padding: 10px 10px;
+    border-radius: 5px;
 }
 
 header h2 {
+    font-family: 'Courier New', Courier, monospace sans-serif;
+    font-size: 20px;
+    color: rgb(50, 50, 50);
     margin: 0;
 }
 
