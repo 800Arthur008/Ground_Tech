@@ -33,6 +33,11 @@
 
 /* sm */
 @media (max-width: 640px) {
+
+    .info-header{
+        padding-left: 30px;
+    }
+
     header h1{
         font-size: 50px;
         font-weight: 700;
@@ -50,6 +55,10 @@
 
 /* xs */
 @media (max-width: 475px) {
+
+    .info-header{
+        padding-left: 15px;
+    }
 
     header h1{
         font-size: 40px;
