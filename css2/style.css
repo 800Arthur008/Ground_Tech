@@ -7,6 +7,12 @@ body {
     background-color: #f4f4f4;
 }
 
+.dashboard_title{
+    background-color: rgb(232, 232, 232);
+    padding: 10px;
+    border-radius: 10px;
+}
+
 .dashboard_background {
     background-color: white;
     border-radius: 5px;
@@ -130,16 +136,32 @@ body {
     border-radius: 5px;
 }
 
+.general_statistics .dashboard_title{
+    margin: 0px 10px;
+}
+
 .general_statistics h3{
-    margin-bottom: 20px;
+    color: black;
+    font-weight: 600;
+    margin-left: 10px;
 }
 
-.statistics_img{
-    display: flex;
-    justify-content: space-around;
+.general_statistics p{
+    color: black;
+    margin-left: 10px;
 }
 
-.statistics_img img{
+.main_statistics1{
+    margin-top: 25px;
+    width: 650px;
+}
+
+.main_statistics1 h4{
+    font-size: 20px;
+    text-align: center;
+}
+
+.main_statistics1 img{
     max-width: 100%;
 }
 
