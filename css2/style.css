@@ -52,7 +52,7 @@ body {
     background-color: #5ecf2d;
     background-image: url(../assets/img/monitoring_icon.png);
     background-repeat: no-repeat;
-    background-position: 35vh;
+    background-position: right;
     box-shadow: 0px 0px 10px 0.5px rgb(150, 150, 150);
 }
 
@@ -75,7 +75,7 @@ body {
     background-color: #c54b23;
     background-image: url(../assets/img/alert_icon.png);
     background-repeat: no-repeat;
-    background-position: 35vh;
+    background-position: right;
     box-shadow: 0px 0px 10px 0.5px rgb(150, 150, 150);
 }
 
@@ -98,7 +98,7 @@ body {
     background-color: #420cc9;
     background-image: url(../assets/img/location_icon.png);
     background-repeat: no-repeat;
-    background-position: 35vh;
+    background-position: right;
     box-shadow: 0px 0px 10px 0.5px rgb(150, 150, 150);
 }
 
@@ -150,7 +150,7 @@ body {
 
 .main_statistics1{
     margin-top: 25px;
-    width: 650px;
+    width: 90%;
 }
 
 .main_statistics1 h4{
@@ -172,7 +172,7 @@ body {
 }
 
 .main_statistics2 img{
-    max-width: 60vh;
+    max-width: 100%;
 }
 
 .sidebar {
@@ -246,7 +246,8 @@ header h2 {
     margin: 0;
     font-size: 40px;
     font-weight: 700;
-    margin-left: 100px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .search-wrapper {
