@@ -74,91 +74,44 @@ body {
     margin-top: 10px;
 }
 
-/*-----------------------------------------------------------*/
+.message_box h3{
+    background-color: #55555529;
+    padding: 10px 5px;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.714);
+    font-weight: 600;
+    margin-left: 10px;
+    width: 1210px;
+}
+
+.messages{
+    border: 0.5px solid black;
+    margin: 0px 10px;
+    border-radius: 5px;
+
+}
+
+.messages div{
+    border: 0.5px solid black;
+    padding: 5px;
+    background-image: url(../assets/img/alarm_icon.png);
+    background-repeat: no-repeat;
+    background-position: 1180px;
+
+}
+
+.title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #55555529;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
 .icon-header{
     display: none;
-}
-
-.dashboard_main{
-    max-width: 90%;
-}
-
-.description1{
-    margin-top: 10px;
-    max-width: 25%;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #5ecf2d;
-    background-image: url(../assets/img/monitoring_icon.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    box-shadow: 0px 0px 10px 0.5px rgb(150, 150, 150);
-}
-
-.description1 h3{
-    color: rgb(255, 255, 255);
-}
-
-.description1 p{
-    color: rgba(255, 255, 255, 0.821);
-    max-width: 70%;
-}
-
-/*-----------------------------------------------------------*/
-
-.description2{
-    margin-top: 10px;
-    max-width: 25%;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #c54b23;
-    background-image: url(../assets/img/alert_icon.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    box-shadow: 0px 0px 10px 0.5px rgb(150, 150, 150);
-}
-
-.description2 h3{
-    color: rgb(255, 255, 255);
-}
-
-.description2 p{
-    color: rgba(255, 255, 255, 0.821);
-    max-width: 70%;
-}
-
-/*-----------------------------------------------------------*/
-
-.description3{
-    margin-top: 10px;
-    max-width: 25%;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #420cc9;
-    background-image: url(../assets/img/location_icon.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    box-shadow: 0px 0px 10px 0.5px rgb(150, 150, 150);
-}
-
-.description3 h3{
-    color: rgb(255, 255, 255);
-}
-
-.description3 p{
-    color: rgba(255, 255, 255, 0.821);
-    max-width: 70%;
-}
-
-/*-----------------------------------------------------------*/
-
-.more{
-    margin-top: 10px;
-    font-size: 15px;
-}
-
-.more a{
-    color: white;
 }
 
 .sections {
@@ -168,50 +121,6 @@ body {
 
 .general_statistics .dashboard_title{
     margin: 0px 10px;
-}
-
-.general_statistics h3{
-    color: black;
-    font-weight: 600;
-    margin-left: 10px;
-}
-
-.general_statistics p{
-    color: black;
-    margin-left: 10px;
-}
-
-.main_statistics{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.main_statistics1{
-    margin-top: 25px;
-    width: 90%;
-}
-
-.main_statistics1 h4{
-    font-size: 20px;
-    text-align: center;
-}
-
-.main_statistics1 img{
-    max-width: 100%;
-}
-
-.main_statistics2{
-    margin-top: 25px;
-}
-
-.main_statistics2 h4{
-    font-size: 20px;
-    text-align: center;
-}
-
-.main_statistics2 img{
-    max-width: 100%;
 }
 
 .sidebar {
