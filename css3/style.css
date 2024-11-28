@@ -122,6 +122,28 @@ body {
     margin: 0px 10px;
 }
 
+.devices{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.devices_title{
+    margin: 10px;
+    background-color: #55555529;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.devices_monitoring div{
+    background-color: #55555529;
+}
+
+.devices_monitoring h5{
+    font-size: 20px;
+}
+
 .sidebar {
     width: 250px;
     background: rgb(2,0,39);
