@@ -60,7 +60,7 @@ body {
     background-color: #5ecf2d;
     background-image: url(../assets/img/monitoring_icon.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: calc(100% - 10px);
     box-shadow: 0px 0px 10px 0.5px rgb(150, 150, 150);
 }
 
@@ -83,7 +83,7 @@ body {
     background-color: #c54b23;
     background-image: url(../assets/img/alert_icon.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: calc(100% - 10px);
     box-shadow: 0px 0px 10px 0.5px rgb(150, 150, 150);
 }
 
@@ -106,7 +106,7 @@ body {
     background-color: #420cc9;
     background-image: url(../assets/img/location_icon.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: calc(100% - 10px);
     box-shadow: 0px 0px 10px 0.5px rgb(150, 150, 150);
 }
 
