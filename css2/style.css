@@ -1,5 +1,6 @@
 /* Estilos gerais */
 body {
+    margin: 0;
     font-family: 'Roboto', sans-serif;
     display: flex;
     background-image: url('https://www.aen.pr.gov.br/sites/default/arquivos_restritos/files/imagem/2022-12/deslizamento_10.jpg');
