@@ -10,18 +10,53 @@
 
 /* lg */
 @media (max-width: 1024px) {
-  
+    .client_table_title h4{
+        font-size: 18px;
+    }
+
+    .sidebar{
+        display: none;
+    }
+
+    .main-content{
+        margin: 0;
+    }
+
+    .icon-header{
+        display: block;
+    }
+
 }
 
 /* md */
 @media (max-width: 768px) {
+    .client_table_title h4{
+        font-size: 18px;
+    }
+
+    .client_table_title{
+        justify-content: space-around;
+        flex-direction: column;
+        gap: 30px;
+        border: none;
+    }
+
+    .list h4{
+        border: 2px solid black;
+    }
 
 }
    
 
 /* sm */
 @media (max-width: 640px) {
-    
+    header h2{
+        font-size: 25px;
+    }
+
+    .icon-header{
+        width: 30px;
+    }
 }
 
 /* xs */
